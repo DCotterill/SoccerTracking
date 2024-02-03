@@ -6,6 +6,8 @@ cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
 
+# This is a test comment to track the changes in Github using the web interface
+
 # model
 # model = YOLO("yolov8n.pt")
 model = YOLO("./runs/detect/train3/weights/best.pt")
