@@ -1,0 +1,14 @@
+path: /Users/darren/Downloads/SoccerTracking
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['soccer-ball', 'soccer-boot']
+
+roboflow:
+  workspace: yolo-training-68vbc
+  project: soccer-boots
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-training-68vbc/soccer-boots/dataset/2

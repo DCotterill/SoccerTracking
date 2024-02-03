@@ -1,0 +1,11 @@
+path: /Users/darren/Downloads/SoccerTracking/dataset
+train: /Users/darren/Downloads/SoccerTracking/dataset/train
+test: /Users/darren/Downloads/SoccerTracking/dataset/test
+val: /Users/darren/Downloads/SoccerTracking/dataset/valid
+
+# Classes
+nc: 2 # replace based on your dataset's number of classes
+
+# Class names
+# replace all class names with your own classes' names
+names: ['soccer-ball', 'soccer-boot']
